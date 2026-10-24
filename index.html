@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learntech Online</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ============================================================
+         NAVBAR
+         ============================================================ -->
+    <header class="nv" id="nv">
+        <div class="nv-scrim" id="nvScrim" aria-hidden="true"></div>
+
+        <div class="nv-pill">
+            <a href="#top" class="nv-logo" aria-label="Learntech home">
+                <img src="media/LT.svg" alt="Learntech" width="150" height="40">
+            </a>
+
+            <!-- mobile only: quick call + menu button -->
+            <a href="tel:+919876543210" class="nv-call" aria-label="Call us for free counselling">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                </svg>
+                <i class="nv-cta__dot"></i>
+            </a>
+
+            <button class="nv-toggle" id="nvToggle" type="button" aria-expanded="false" aria-controls="nvPanel"
+                aria-label="Open menu">
+                <span class="nv-toggle__l"></span>
+                <span class="nv-toggle__l"></span>
+            </button>
+
+            <div class="nv-panel" id="nvPanel">
+                <div class="nv-panel__in">
+                    <nav class="nv-nav" aria-label="Main">
+                        <ul class="nv-links" id="nvLinks">
+                            <li class="nv-ind" id="nvInd" aria-hidden="true"></li>
+                            <li><a class="nv-link" href="#aiCourses" data-spy="about"><span data-t="AI Courses">AI
+                                        Courses</span></a></li>
+                            <li><a class="nv-link" href="#browse" data-spy="partners"><span
+                                        data-t="Programmes">Programmes</span></a></li>
+                            <li><a class="nv-link" href="#course-finder" data-spy="browse"><span
+                                        data-t="Course Finder">Course
+                                        Finder</span></a></li>
+                            <li><a class="nv-link" href="#partners" data-spy="courses"><span
+                                        data-t="Partners">Partners</span></a></li>
+                            <li><a class="nv-link" href="#process" data-spy="compare"><span data-t="How it works">How It
+                                        Works</span></a></li>
+                            <li><a class="nv-link" href="#faq" data-spy="faq"><span data-t="FAQs">FAQs</span></a></li>
+                        </ul>
+                    </nav>
+
+                    <a href="tel:+919606949066" class="nv-cta" aria-label="Call +91 96069 49066">
+                        <span class="nv-cta__ic">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                            </svg>
+                            <i class="nv-cta__dot"></i>
+                        </span>
+                        <span class="nv-cta__t">
+                            <small>Toll free</small>
+                            <b>Talk to an expert</b>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============================================================
+         HERO
+         ============================================================ -->
+    <section class="hero" id="hero">
+        <div class="floaters" aria-hidden="true">
+            <div class="glow" style="width:380px;height:230px;left:-50px;top:18%;background:rgba(233,60,71,.2)"></div>
+            <div class="glow" style="width:400px;height:340px;right:-60px;bottom:8%;background:rgba(39,72,150,.22)">
+            </div>
+
+            <!-- profile cards -->
+            <div class="pcard px" style="--s:.55;left:5%;top:24%">
+                <div class="who">
+                    <img src="https://i.pravatar.cc/100?img=47" alt="">
+                    <div><b>Aarav</b><small>Working Professional</small></div>
+                </div>
+                <p>Ready to move into management with an <strong>Online MBA</strong></p>
+            </div>
+            <div class="pcard px" style="--s:-.5;right:5%;top:56%">
+                <div class="who">
+                    <img src="https://i.pravatar.cc/100?img=12" alt="">
+                    <div><b>Priya</b><small>Commerce Graduate</small></div>
+                </div>
+                <p>Exploring a tech career with an <strong>Online BCA</strong></p>
+            </div>
+
+            <!-- avatars -->
+            <div class="fav px" style="--s:-1.15;left:1%;top:15%"><img src="https://i.pravatar.cc/100?img=11" alt="">
+            </div>
+            <div class="fav px" style="--s:.9;right:4%;top:17%"><img src="https://i.pravatar.cc/100?img=32" alt="">
+            </div>
+            <div class="fav px" style="--s:1.35;left:9%;bottom:13%"><img src="https://i.pravatar.cc/100?img=44" alt="">
+            </div>
+            <div class="fav px" style="--s:-1.25;right:9%;bottom:15%"><img src="https://i.pravatar.cc/100?img=5" alt="">
+            </div>
+
+            <!-- course pop-ups -->
+            <div class="mini px" style="--s:1.45;right:6%;top:34%"><small>Recommended for you</small><b>Online MBA</b>
+            </div>
+            <div class="mini px" style="--s:-1.35;left:7%;bottom:28%"><small>Shortlisted</small><b>BCA in AI and Data
+                    Science</b></div>
+        </div>
+
+        <div class="shell hc">
+            <h1>Find the right <span class="cw" id="cw">Programme</span>, for the career you want.</h1>
+            <p class="hd">Discover online programmes from leading universities and take the next step towards your
+                career with the right career guidance for students.</p>
+            <div class="ha">
+                <a href="#cta" class="btn btn-p open-enquiry-popup">
+                    Explore Programmes ⟶
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         ABOUT
+         ============================================================ -->
+    <section class="alt" style="margin-bottom: 80px; padding-inline: 20px;" id="about">
+        <div class="shell">
+            <div class="sh rv">
+                <div class="lab">— About</div>
+                <h2 class="st">About Learntech Edu Solutions</h2>
+                <p class="sd">Choosing an online programme should not feel like guesswork. We help you find an
+                    accredited course that fits your goals, your budget and your routine, and we support you, right from
+                    the point of career guidance after 12th until the day you graduate college.
+                </p>
+            </div>
+            <div class="ab">
+                <div class="abi rv">
+                    <div class="orb" style="--c1:#f26a75;--c2:#d9b6f0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1">
+                                <path d="M2.5 6L8 4l5.5 2L11 7.5V9s-.667-.5-3-.5S5 9 5 9V7.5zm0 0v4" />
+                                <path
+                                    d="M11 8.5v.889c0 1.718-1.343 3.111-3 3.111s-3-1.393-3-3.111V8.5m10.318 2.53s.485-.353 2.182-.353s2.182.352 2.182.352m-4.364 0V10L13.5 9l4-1.5l4 1.5l-1.818 1v1.03m-4.364 0v.288a2.182 2.182 0 1 0 4.364 0v-.289M4.385 15.926c-.943.527-3.416 1.602-1.91 2.947C3.211 19.53 4.03 20 5.061 20h5.878c1.03 0 1.85-.47 2.586-1.127c1.506-1.345-.967-2.42-1.91-2.947c-2.212-1.235-5.018-1.235-7.23 0M16 20h3.705c.773 0 1.387-.376 1.939-.902c1.13-1.076-.725-1.936-1.432-2.357A5.34 5.34 0 0 0 16 16.214" />
+                            </g>
+                        </svg>
+                    </div>
+                    <h3>1,00,000+ students</h3>
+                    <p>Guided towards the right course and college, with advice built around each student.</p>
+                </div>
+                <div class="abi rv">
+                    <div class="orb" style="--c1:#7d8fe8;--c2:#cfd6f7">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+                            <path fill="currentColor" stroke="currentColor" stroke-width="0.25" stroke-linejoin="round"
+                                d="M23.66 5.06a1 1 0 0 1 .788.045l20 10A1 1 0 0 1 44 17H4a1 1 0 0 1-.447-1.895l20-10zM8.237 15h31.527L24 7.118zM42 19a1 1 0 1 1 0 2H6a1 1 0 1 1 0-2zm0 18a1 1 0 1 1 0 2H6a1 1 0 1 1 0-2zm2 4a1 1 0 1 1 0 2H4a1 1 0 1 1 0-2z" />
+                            <path fill="currentColor" stroke="currentColor" stroke-width="0.25" stroke-linejoin="round"
+                                d="M12 20v18h-2V20zm8 0v18h-2V20zm10 0v18h-2V20zm8 0v18h-2V20z" />
+                        </svg>
+                    </div>
+                    <h3>1,000+ partner institutions</h3>
+                    <p>A wide network of colleges and universities to choose from.</p>
+                </div>
+                <div class="abi rv">
+                    <div class="orb" style="--c1:#ff9a3c;--c2:#ffd58a">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 1.75A10.25 10.25 0 1 0 22.25 12" />
+                            <path d="M12 5.95A6.05 6.05 0 1 0 18.05 12" />
+                            <circle cx="12" cy="12" r="1.2" fill="currentColor" />
+                            <path d="M12.85 11.15 20.6 3.4" />
+                            <path d="M20.2 7.2 17.2 6.8 16.8 3.8" />
+                            <path d="M22.4 5 19.4 4.6 19 1.6" />
+                        </svg>
+                    </div>
+                    <h3>30+ years of experience</h3>
+                    <p>Deep knowledge of admissions, courses and career counselling for students, built over time.</p>
+                </div>
+                <div class="abi rv">
+                    <div class="orb" style="--c1:#3fc4a8;--c2:#bfeadf">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2.5" y="7.5" width="19" height="13" rx="2.5" />
+                            <path d="M8.5 7.5V6A2 2 0 0 1 10.5 4h3a2 2 0 0 1 2 2v1.5" />
+                            <path
+                                d="M12 10.6l.85 2.23 2.38.12-1.85 1.5.62 2.3L12 15.45l-2 1.3.62-2.3-1.85-1.5 2.38-.12z" />
+                        </svg>
+                    </div>
+                    <h3>Since 1994</h3>
+                    <p>A long-standing name in education, trusted by students and families.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="aiCourses" aria-labelledby="aicTitle">
+        <canvas class="aic-bg" aria-hidden="true"></canvas>
+
+        <div class="shell">
+            <div class="aic-head">
+                <div class="sh">
+                    <div class="lab">— Future-ready skills</div>
+                    <h2 class="st" id="aicTitle">Trending Courses</h2>
+                    <p class="sd">Explore online AI programmes from our trusted university partners, covering artificial
+                        intelligence, machine learning and emerging technologies to support your career growth.</p>
+                </div>
+            </div>
+
+            <div class="aic-grid">
+                <!-- Card 1 -->
+                <article class="aic-card" style="--i:0">
+                    <span class="aic-logo" title="Amrita Online">
+                        <img src="media/Amrita.svg" alt="Amrita Online" loading="lazy" draggable="false"
+                            onerror="this.parentNode.style.display='none'">
+                    </span>
+                    <div class="aic-img">
+                        <img src="media/393265.jpg" alt="AI and Machine Learning" loading="lazy" draggable="false"
+                            onerror="this.style.display='none'">
+                    </div>
+                    <div class="aic-body">
+                        <h3>Online MCA (Artificial Intelligence)</h3>
+                        <p>Develop expertise in artificial intelligence, intelligent systems and AI driven applications
+                            through advanced computing concepts and practical learning.</p>
+                        <div class="aic-meta">
+                            <div><small>Duration</small><b>2 Years</b></div>
+                            <div><small>Fees</small><b>Rs. 1,95,000</b></div>
+                        </div>
+                        <a href="#cta" class="aic-btn">
+                            <span>Enquire Now</span>
+                            <i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path d="M5 12h14M13 6l6 6-6 6" />
+                                </svg></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 2 (centre, taller) -->
+                <article class="aic-card is-featured" style="--i:1">
+                    <span class="aic-logo" title="Christ Online">
+                        <img src="media/Christ.svg" alt="Christ Online" loading="lazy" draggable="false"
+                            onerror="this.parentNode.style.display='none'">
+                    </span>
+                    <div class="aic-img">
+                        <img src="media/241171.jpg" alt="Data Science with AI" loading="lazy" draggable="false"
+                            onerror="this.style.display='none'">
+                    </div>
+                    <div class="aic-body">
+                        <h3>Online M.Sc (Master of Science) in Artificial Intelligence and Machine Learning</h3>
+                        <p>Build a strong foundation in AI and machine learning, with a focus on developing intelligent
+                            models, analysing data and solving complex problems.</p>
+                        <div class="aic-meta">
+                            <div><small>Duration</small><b>2 Years</b></div>
+                            <div><small>Fees</small><b>Rs. 2,75,000</b></div>
+                        </div>
+                        <a href="#cta" class="aic-btn">
+                            <span>Enquire Now</span>
+                            <i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path d="M5 12h14M13 6l6 6-6 6" />
+                                </svg></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="aic-card" style="--i:2">
+                    <span class="aic-logo" title="Amrita Online">
+                        <img src="media/Amrita.svg" alt="Amrita Online" loading="lazy" draggable="false"
+                            onerror="this.parentNode.style.display='none'">
+                    </span>
+                    <div class="aic-img">
+                        <img src="media/1642.jpg" alt="Generative AI" loading="lazy" draggable="false"
+                            onerror="this.style.display='none'">
+                    </div>
+                    <div class="aic-body">
+                        <h3>Online MCA (Cybersecurity &amp; Artificial Intelligence)</h3>
+                        <p>Explore the intersection of cybersecurity and artificial intelligence, focusing on digital
+                            security, threat detection and intelligent systems.</p>
+                        <div class="aic-meta">
+                            <div><small>Duration</small><b>2 Years</b></div>
+                            <div><small>Fees</small><b>Rs. 1,95,000</b></div>
+                        </div>
+                        <a href="#cta" class="aic-btn">
+                            <span>Enquire Now</span>
+                            <i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path d="M5 12h14M13 6l6 6-6 6" />
+                                </svg></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="browse">
+        <div class="shell">
+            <div class="sh">
+                <div class="sh-left">
+                    <div class="lab">— Programmes</div>
+                    <h2 class="st">Programmes</h2>
+                    <p class="sd">There are a plethora of courses offered by various institutions which cater to the
+                        growing needs of the students, from the undergraduate to postgraduate level.</p>
+                </div>
+                <div class="chips" id="pcF" role="tablist" aria-label="Filter programmes">
+                    <button class="chip on" data-f="all" role="tab" aria-selected="true">All</button>
+                    <button class="chip" data-f="ug" role="tab" aria-selected="false">UG Programmes</button>
+                    <button class="chip" data-f="pg" role="tab" aria-selected="false">PG Programmes</button>
+                </div>
+            </div>
+
+            <div class="trk" id="pcT">
+                <div class="rail" id="pcR"></div>
+            </div>
+
+            <div class="ctl" id="pcC">
+                <div class="arrs">
+                    <button class="arr" id="pcP" aria-label="Previous">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M19 12H5M11 6l-6 6 6 6" />
+                        </svg>
+                    </button>
+                    <button class="arr" id="pcN" aria-label="Next">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M13 6l6 6-6 6" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="cta-banner" aria-labelledby="cta-banner-title">
+
+        <!-- shared grain filter (kept 0×0, not display:none, so it stays referenceable) -->
+        <svg class="cta-banner__defs" width="0" height="0" aria-hidden="true" focusable="false">
+            <defs>
+                <filter id="cta-banner-grain" filterUnits="userSpaceOnUse" x="-4" y="-4" width="48" height="48"
+                    color-interpolation-filters="sRGB">
+                    <feTurbulence type="fractalNoise" baseFrequency="1.3" numOctaves="2" seed="7" result="noise" />
+                    <feColorMatrix in="noise" type="saturate" values="0" result="mono" />
+                    <feComposite in="mono" in2="SourceAlpha" operator="in" result="grain" />
+                    <feBlend in="grain" in2="SourceGraphic" mode="overlay" />
+                </filter>
+            </defs>
+        </svg>
+
+        <span class="cta-banner__glow cta-banner__glow--blue" aria-hidden="true"></span>
+        <span class="cta-banner__glow cta-banner__glow--red" aria-hidden="true"></span>
+
+        <div class="cta-banner__content">
+            <h2 class="cta-banner__title" id="cta-banner-title">
+                Learn
+
+                <!-- 1 · quatrefoil: petals close and open while it turns -->
+                <span class="cta-banner__obj" aria-hidden="true">
+                    <svg class="cta-banner__svg" viewBox="0 0 40 40">
+                        <defs>
+                            <linearGradient id="cta-banner-grad-red-a" gradientUnits="userSpaceOnUse" x1="6" y1="6"
+                                x2="36" y2="36">
+                                <stop offset="0" stop-color="#e93c47" />
+                                <stop offset=".35" stop-color="#ee5b64" />
+                                <stop offset="1" stop-color="#ffd3d6" />
+                            </linearGradient>
+                        </defs>
+                        <g filter="url(#cta-banner-grain)">
+                            <g class="cta-banner__quatrefoil" fill="url(#cta-banner-grad-red-a)">
+                                <rect x="11" y="11" width="18" height="18" />
+                                <circle cx="11" cy="11" r="9" />
+                                <circle cx="29" cy="11" r="9" />
+                                <circle cx="11" cy="29" r="9" />
+                                <circle cx="29" cy="29" r="9" />
+                            </g>
+                        </g>
+                    </svg>
+                </span>
+
+                Online.
+
+                <!-- 2 · diamond: turns diamond → square → diamond -->
+                <span class="cta-banner__obj" aria-hidden="true">
+                    <svg class="cta-banner__svg" viewBox="0 0 40 40">
+                        <defs>
+                            <linearGradient id="cta-banner-grad-blue-a" gradientUnits="userSpaceOnUse" x1="7" y1="20"
+                                x2="33" y2="20">
+                                <stop offset="0" stop-color="#b8c9f6" />
+                                <stop offset="1" stop-color="#274896" />
+                            </linearGradient>
+                        </defs>
+                        <g filter="url(#cta-banner-grain)">
+                            <rect class="cta-banner__diamond" x="7" y="7" width="26" height="26" rx="2.5"
+                                fill="url(#cta-banner-grad-blue-a)" />
+                        </g>
+                    </svg>
+                </span>
+
+                Grow Further.
+
+                <!-- 3 · two half-discs: tilt apart, then flip a half turn -->
+                <span class="cta-banner__obj" aria-hidden="true">
+                    <svg class="cta-banner__svg" viewBox="0 0 40 40">
+                        <defs>
+                            <linearGradient id="cta-banner-grad-red-b" gradientUnits="userSpaceOnUse" x1="4" y1="4"
+                                x2="36" y2="36">
+                                <stop offset="0" stop-color="#e93c47" />
+                                <stop offset=".4" stop-color="#ee5b64" />
+                                <stop offset="1" stop-color="#ffd3d6" />
+                            </linearGradient>
+                        </defs>
+                        <g filter="url(#cta-banner-grain)">
+                            <g class="cta-banner__halves" fill="url(#cta-banner-grad-red-b)">
+                                <path class="cta-banner__half cta-banner__half--left"
+                                    d="M4 4A16 16 0 0 1 20 20A16 16 0 0 1 4 36Z" />
+                                <path class="cta-banner__half cta-banner__half--right"
+                                    d="M36 4A16 16 0 0 0 20 20A16 16 0 0 0 36 36Z" />
+                            </g>
+                        </g>
+                    </svg>
+                </span>
+
+                Shape Your Future.
+
+                <!-- 4 · sphere: light source orbits while it breathes -->
+                <span class="cta-banner__obj" aria-hidden="true">
+                    <svg class="cta-banner__svg" viewBox="0 0 40 40">
+                        <defs>
+                            <linearGradient id="cta-banner-grad-blue-b" gradientUnits="userSpaceOnUse" x1="20" y1="4"
+                                x2="20" y2="34">
+                                <stop offset="0" stop-color="#b8c9f6" />
+                                <stop offset=".55" stop-color="#4a6bc4" />
+                                <stop offset="1" stop-color="#274896" />
+                                <animateTransform attributeName="gradientTransform" type="rotate" from="0 20 20"
+                                    to="360 20 20" dur="7s" repeatCount="indefinite" />
+                            </linearGradient>
+                        </defs>
+                        <g filter="url(#cta-banner-grain)">
+                            <circle class="cta-banner__sphere" cx="20" cy="20" r="16"
+                                fill="url(#cta-banner-grad-blue-b)" />
+                        </g>
+                    </svg>
+                </span>
+            </h2>
+
+            <p class="cta-banner__text">Explore online programmes from our trusted educational partners.</p>
+        </div>
+
+        <a href="#courses" class="cta-banner__btn" aria-label="Explore programmes">
+            <svg class="cta-banner__btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M7 17 17 7" />
+                <path d="M8 7h9v9" />
+            </svg>
+        </a>
+    </section>
+
+
+
+
+    <section class="course-finder" id="course-finder" data-course-finder aria-labelledby="course-finder-title">
+        <div class="course-finder__backdrop" aria-hidden="true">
+            <span class="course-finder__blob course-finder__blob--blue"></span>
+            <span class="course-finder__blob course-finder__blob--red"></span>
+        </div>
+
+        <div class="course-finder__inner">
+
+            <header class="course-finder__header">
+                <div class="lab" style="text-align:center !important;">04 — Course Finder</div>
+                <h2 class="course-finder__title" id="course-finder-title">We’ll Name the Programme for You</h2>
+                <p style="font-size: 16px; color: rgb(52, 52, 52);">Choose from our pre-determined options on the basis
+                    of your preference and see which course best
+                    suits your planned career path!</p>
+            </header>
+
+            <div class="course-finder__sentence">
+                <span class="course-finder__text">I want to build a career in</span>
+
+                <div class="course-finder__dropdown" data-dropdown="field">
+                    <button class="course-finder__trigger" type="button" id="cf-trigger-field" aria-haspopup="listbox"
+                        aria-expanded="false" aria-controls="cf-menu-field" aria-label="Field of career">
+                        <span class="course-finder__trigger-label">Business</span>
+                        <svg class="course-finder__chevron" viewBox="0 0 12 12" fill="none" stroke="currentColor"
+                            stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="m2 4 4 4 4-4" />
+                        </svg>
+                    </button>
+                    <ul class="course-finder__menu" id="cf-menu-field" role="listbox" tabindex="-1"
+                        aria-labelledby="cf-trigger-field">
+                        <li class="course-finder__option" role="option" id="cf-opt-business" data-value="business"
+                            aria-selected="true">
+                            <span class="course-finder__option-text">Business</span>
+                            <svg class="course-finder__option-check" viewBox="0 0 16 16" fill="none"
+                                stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"
+                                aria-hidden="true">
+                                <path d="m3 8.5 3.2 3L13 4.5" />
+                            </svg>
+                        </li>
+                        <li class="course-finder__option" role="option" id="cf-opt-technology" data-value="technology"
+                            aria-selected="false">
+                            <span class="course-finder__option-text">Technology</span>
+                            <svg class="course-finder__option-check" viewBox="0 0 16 16" fill="none"
+                                stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"
+                                aria-hidden="true">
+                                <path d="m3 8.5 3.2 3L13 4.5" />
+                            </svg>
+                        </li>
+                        <li class="course-finder__option" role="option" id="cf-opt-data" data-value="data"
+                            aria-selected="false">
+                            <span class="course-finder__option-text">Data and AI</span>
+                            <svg class="course-finder__option-check" viewBox="0 0 16 16" fill="none"
+                                stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"
+                                aria-hidden="true">
+                                <path d="m3 8.5 3.2 3L13 4.5" />
+                            </svg>
+                        </li>
+                        <li class="course-finder__option" role="option" id="cf-opt-finance" data-value="finance"
+                            aria-selected="false">
+                            <span class="course-finder__option-text">Finance</span>
+                            <svg class="course-finder__option-check" viewBox="0 0 16 16" fill="none"
+                                stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"
+                                aria-hidden="true">
+                                <path d="m3 8.5 3.2 3L13 4.5" />
+                            </svg>
+                        </li>
+                        <li class="course-finder__option" role="option" id="cf-opt-media" data-value="media"
+                            aria-selected="false">
+                            <span class="course-finder__option-text">Media</span>
+                            <svg class="course-finder__option-check" viewBox="0 0 16 16" fill="none"
+                                stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"
+                                aria-hidden="true">
+                                <path d="m3 8.5 3.2 3L13 4.5" />
+                            </svg>
+                        </li>
+                    </ul>
+                </div>,
+
+                <span class="course-finder__text">I’m</span>
+
+                <div class="course-finder__dropdown" data-dropdown="level">
+                    <button class="course-finder__trigger" type="button" id="cf-trigger-level" aria-haspopup="listbox"
+                        aria-expanded="false" aria-controls="cf-menu-level" aria-label="Your education level">
+                        <span class="course-finder__trigger-label">a Graduate</span>
+                        <svg class="course-finder__chevron" viewBox="0 0 12 12" fill="none" stroke="currentColor"
+                            stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="m2 4 4 4 4-4" />
+                        </svg>
+                    </button>
+                    <ul class="course-finder__menu" id="cf-menu-level" role="listbox" tabindex="-1"
+                        aria-labelledby="cf-trigger-level">
+                        <li class="course-finder__option" role="option" id="cf-opt-12th" data-value="12th"
+                            aria-selected="false">
+                            <span class="course-finder__option-text">a 12th pass student</span>
+                            <svg class="course-finder__option-check" viewBox="0 0 16 16" fill="none"
+                                stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"
+                                aria-hidden="true">
+                                <path d="m3 8.5 3.2 3L13 4.5" />
+                            </svg>
+                        </li>
+                        <li class="course-finder__option" role="option" id="cf-opt-graduate" data-value="graduate"
+                            aria-selected="true">
+                            <span class="course-finder__option-text">a Graduate</span>
+                            <svg class="course-finder__option-check" viewBox="0 0 16 16" fill="none"
+                                stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"
+                                aria-hidden="true">
+                                <path d="m3 8.5 3.2 3L13 4.5" />
+                            </svg>
+                        </li>
+                    </ul>
+                </div>, and I can give it about 8 hours a week.
+            </div>
+
+            <div class="course-finder__card">
+                <div class="course-finder__result-bar">
+                    <div class="course-finder__result-text" aria-live="polite">
+                        <p class="course-finder__result-label"><span class="course-finder__result-dot"
+                                aria-hidden="true"></span>Recommendation</p>
+                        <div class="course-finder__results">
+                            <h3 class="course-finder__result" data-field="business" data-level="12th" hidden><span
+                                    class="course-finder__result-name">Online BBA</span></h3>
+                            <h3 class="course-finder__result" data-field="business" data-level="graduate" hidden><span
+                                    class="course-finder__result-name">Online MBA</span></h3>
+                            <h3 class="course-finder__result" data-field="technology" data-level="12th" hidden><span
+                                    class="course-finder__result-name">Online BCA</span></h3>
+                            <h3 class="course-finder__result" data-field="technology" data-level="graduate" hidden><span
+                                    class="course-finder__result-name">Online MCA</span></h3>
+                            <h3 class="course-finder__result" data-field="data" data-level="12th" hidden><span
+                                    class="course-finder__result-name">Online BCA</span></h3>
+                            <h3 class="course-finder__result" data-field="data" data-level="graduate" hidden><span
+                                    class="course-finder__result-name">Online M.Sc in Data Science</span></h3>
+                            <h3 class="course-finder__result" data-field="finance" data-level="12th" hidden><span
+                                    class="course-finder__result-name">Online B.Com</span></h3>
+                            <h3 class="course-finder__result" data-field="finance" data-level="graduate" hidden><span
+                                    class="course-finder__result-name">Online M.Com</span></h3>
+                            <h3 class="course-finder__result" data-field="media" data-level="12th" hidden><span
+                                    class="course-finder__result-name">Online BA in Journalism and Mass
+                                    Communication</span>
+                            </h3>
+                            <h3 class="course-finder__result" data-field="media" data-level="graduate" hidden><span
+                                    class="course-finder__result-name">Online MA in Journalism</span></h3>
+                        </div>
+                    </div>
+
+                    <a class="course-finder__cta" href="#get-free-counselling">
+                        <span class="course-finder__cta-roll">
+                            <span class="course-finder__cta-label">Contact Our Counsellors</span>
+                            <span class="course-finder__cta-label course-finder__cta-label--clone"
+                                aria-hidden="true">Contact Our Counsellors</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ============================================================
+         PARTNERS
+         ============================================================ -->
+    <section class="sec" id="partners">
+        <div class="sh rv" style="text-align:center !important; align-items:center !important;">
+            <div class="lab" style="text-align:center !important;">— Partners</div>
+            <h2 class="st" style="text-align:center !important;">Our Partners</h2>
+            <p class="sd"
+                style="text-align:center !important; margin-left:auto !important; margin-right:auto !important;">
+                Explore our trusted academic partners and discover the institutions that align with your educational
+                goals and career aspirations!</p>
+        </div>
+        <div class="shell">
+            <div class="pt rv">
+                <div class="ptc">
+                    <div class="ptl" data-m="N">
+                        <img src="partners/Alliance.webp" alt="Alliance Online" loading="lazy"
+                            onerror="this.parentNode.classList.add('nolg');this.remove()">
+                    </div>
+                    <div class="ptb">
+                        <h3>Alliance Online</h3>
+                        <div class="ptm"><small>NAAC A+</small></div>
+                        <p>32,000+ alumni across 50+ countries</p>
+                    </div>
+                </div>
+                <div class="ptc">
+                    <div class="ptl" data-m="M">
+                        <img src="partners/Amirta.webp" alt="Amrita Online" loading="lazy"
+                            onerror="this.parentNode.classList.add('nolg');this.remove()">
+                    </div>
+                    <div class="ptb">
+                        <h3>Amrita Online</h3>
+                        <div class="ptm"><small>NAAC A++</small></div>
+                        <p>The online degrees carry WES equivalence in the USA and Canada</p>
+                    </div>
+                </div>
+                <div class="ptc">
+                    <div class="ptl" data-m="S">
+                        <img src="partners/CU.webp" alt="CU Online" loading="lazy"
+                            onerror="this.parentNode.classList.add('nolg');this.remove()">
+                    </div>
+                    <div class="ptb">
+                        <h3>CU Online</h3>
+                        <div class="ptm"><small>NAAC A+</small></div>
+                        <p>Harvard ManageMentor courses are available for certain programmes</p>
+                    </div>
+                </div>
+                <div class="ptc">
+                    <div class="ptl" data-m="H">
+                        <img src="partners/Christ.webp" alt="CHRIST Online" loading="lazy"
+                            onerror="this.parentNode.classList.add('nolg');this.remove()">
+                    </div>
+                    <div class="ptb">
+                        <h3>CHRIST Online</h3>
+                        <div class="ptm"><small>NAAC A+</small></div>
+                        <p>Institution with Potential for Excellence</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         LOGO WALL
+         ============================================================ -->
+    <section class="sec alt" id="trusted">
+        <div class="lw">
+            <div class="lwc rv">
+                <div class="cp">
+                    <div class="lab">— Career Pathways</div>
+                    <h2>Placements</h2>
+                    <p>Build career readiness through industry relevant learning and explore placement opportunities
+                        available through your chosen university.</p>
+                </div>
+                <div class="stg">
+                    <div class="sl">
+                        <div class="lr">
+                            <div class="ltk">
+                                <div class="lt"><img src="placements/Amazon.svg" alt="accenture" loading="lazy">
+                                </div>
+                                <div class="lt"><img src="placements/Cognizant.svg" alt="asian paints" loading="lazy">
+                                </div>
+                                <div class="lt"><img src="placements/DELL.svg" alt="Capgemini" loading="lazy">
+                                </div>
+                                <div class="lt"><img src="placements/godrej.svg" alt="Cognizant" loading="lazy">
+                                </div>
+                                <div class="lt"><img src="placements/Flipkart.svg" alt="Delhivery" loading="lazy">
+                                </div>
+                                <div class="lt"><img src="placements/ITC.svg" alt="Delhivery" loading="lazy">
+                                </div>
+                                <div class="lt"><img src="placements/Sapient.svg" alt="Delhivery" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lr rev">
+                            <div class="ltk">
+                                <div class="lt"><img src="placements/emerson.svg" alt="Flipkart" loading="lazy"></div>
+                                <div class="lt"><img src="placements/HCL.svg" alt="ICICI" loading="lazy"></div>
+                                <div class="lt"><img src="placements/Google.svg" alt="Google" loading="lazy"></div>
+                                <div class="lt"><img src="placements/HCL.svg" alt="Microsoft" loading="lazy">
+                                </div>
+                                <div class="lt"><img src="placements/HITACHI.svg" alt="TCS" loading="lazy"></div>
+                                <div class="lt"><img src="placements/ITC.svg" alt="Tech Mahindra" loading="lazy"></div>
+                                <div class="lt"><img src="placements/HP.svg" alt="Wipro" loading="lazy"></div>
+                                <div class="lt"><img src="placements/Vmware.svg" alt="Wipro" loading="lazy"></div>
+                                <div class="lt"><img src="placements/Zomato.svg" alt="Wipro" loading="lazy"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         HOW IT WORKS
+         ============================================================ -->
+    <section class="hw" id="process">
+        <div class="shell hw-grid">
+            <div class="hw-head">
+                <div class="lab">— How It Works</div>
+                <h2 class="st">How Learntech Online Can Help You</em></h2>
+                <p class="hw-sub">From shortlisting to joining your first class in four steps - take a look at how easy
+                    it is to choose your programme.</p>
+                <ul class="hw-nav" id="hwNav">
+                    <li class="on"><b>01</b>Explore &amp; compare</li>
+                    <li><b>02</b>Talk to an expert</li>
+                    <li><b>03</b>Apply online</li>
+                    <li><b>04</b>Start learning</li>
+                </ul>
+                <div class="hw-bar"><i id="hwBar"></i></div>
+            </div>
+
+            <div id="hwStack">
+                <article class="hw-card c1" style="--i:0">
+                    <span class="hw-ghost">01</span>
+                    <div class="hw-body">
+                        <h3>Explore &amp; compare</h3>
+                        <p>Compare programmes side by side on fees, duration and approvals. Shortlist the ones that fit
+                            your goals and budget.</p>
+                    </div>
+                    <div class="hw-vis">
+                        <img src="placements/65.webp" alt="Students comparing their study options" loading="lazy"
+                            style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit;">
+                    </div>
+                </article>
+
+                <article class="hw-card c2" style="--i:1">
+                    <span class="hw-ghost">02</span>
+                    <div class="hw-body">
+                        <h3>Talk to an expert</h3>
+                        <p>A real admissions counsellor explains fees, approvals and placements via a one-to-one call.
+                            The advice is honest and there is no pressure.</p>
+                    </div>
+                    <div class="hw-vis">
+                        <img src="placements/64.webp" alt="Learner speaking with an admissions counsellor"
+                            loading="lazy"
+                            style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit;">
+                    </div>
+                </article>
+
+                <article class="hw-card c3" style="--i:2">
+                    <span class="hw-ghost">03</span>
+                    <div class="hw-body">
+                        <h3>Apply online</h3>
+                        <p>Upload your documents once and track your application at any time. We handle the paperwork
+                            with the university.</p>
+                    </div>
+                    <div class="hw-vis">
+                        <img src="placements/63.webp" alt="Student completing an online application" loading="lazy"
+                            style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit;">
+                    </div>
+                </article>
+
+                <article class="hw-card c4" style="--i:3">
+                    <span class="hw-ghost">04</span>
+                    <div class="hw-body">
+                        <h3>Start learning</h3>
+                        <p>Attend orientation and begin your classes. Explore learning formats and placement support
+                            based on your chosen university and programme.</p>
+                    </div>
+                    <div class="hw-vis">
+                        <img src="placements/62.webp" alt="Learners attending a class together" loading="lazy"
+                            style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit;">
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         TESTIMONIALS
+         ============================================================ -->
+    <section class="sec tsec" id="testimonials">
+        <div class="shell">
+            <div class="sh rv">
+                <div class="lab">— Testimonials
+                </div>
+                <h2 class="st">Our Students’ Voices
+                </h2>
+                <p class="sd">Discover how learners describe their academic journeys and the role online education plays
+                    in their personal and professional growth.</p>
+            </div>
+        </div>
+        <div class="tmq" id="tmq">
+            <div class="ttk" id="ttk">
+                <article class="tm">
+                    <div class="tt"><span class="qm">“</span><span class="pill o">Online MBA</span></div>
+                    <p>Studying for an MBA around a full-time job felt impossible — until the live weekend format
+                        actually fit my calendar.</p>
+                    <div class="tp">
+                        <span class="av" aria-hidden="true"></span>
+                        <div><b>Aarav</b><small>Class of 2025</small></div>
+                    </div>
+                </article>
+                <article class="tm">
+                    <div class="tt"><span class="qm">“</span><span class="pill o">Online BCA</span></div>
+                    <p>The BCA in AI &amp; Data Science gave me real projects to show in interviews, not just a
+                        certificate.</p>
+                    <div class="tp">
+                        <span class="av" aria-hidden="true"></span>
+                        <div><b>Priya</b><small>Class of 2027</small></div>
+                    </div>
+                </article>
+                <article class="tm">
+                    <div class="tt"><span class="qm">“</span><span class="pill o">Online MCA</span></div>
+                    <p>Six months in, I'd already shipped two projects at my new job — the mentors made switching into
+                        tech far less scary.</p>
+                    <div class="tp">
+                        <span class="av" aria-hidden="true"></span>
+                        <div><b>Meera</b><small>Class of 2024</small></div>
+                    </div>
+                </article>
+                <article class="tm">
+                    <div class="tt"><span class="qm">“</span><span class="pill o">Online MBA</span></div>
+                    <p>Recorded lectures plus doubt-clearing sessions meant I never fell behind, even during quarter-end
+                        at work.</p>
+                    <div class="tp">
+                        <span class="av" aria-hidden="true"></span>
+                        <div><b>Rohan</b><small>Class of 2024</small></div>
+                    </div>
+                </article>
+                <article class="tm">
+                    <div class="tt"><span class="qm">“</span><span class="pill o">Online BBA</span></div>
+                    <p>I compared a dozen universities. The counsellor here explained fees, approvals and placements
+                        without any pressure.</p>
+                    <div class="tp">
+                        <span class="av" aria-hidden="true"></span>
+                        <div><b>Sneha</b><small>Class of 2026</small></div>
+                    </div>
+                </article>
+                <article class="tm">
+                    <div class="tt"><span class="qm">“</span><span class="pill o">Online MCA</span></div>
+                    <p>My MCA capstone became the portfolio piece that landed my first backend role.</p>
+                    <div class="tp">
+                        <span class="av" aria-hidden="true"></span>
+                        <div><b>Karthik</b><small>Class of 2025</small></div>
+                    </div>
+                </article>
+                <article class="tm">
+                    <div class="tt"><span class="qm">“</span><span class="pill o">M.Sc AI &amp; ML</span></div>
+                    <p>Live weekend sessions with recorded backups let me study alongside work without burning out.</p>
+                    <div class="tp">
+                        <span class="av" aria-hidden="true"></span>
+                        <div><b>Divya</b><small>Class of 2026</small></div>
+                    </div>
+                </article>
+                <article class="tm">
+                    <div class="tt"><span class="qm">“</span><span class="pill o">Online BBA</span></div>
+                    <p>My parents wanted proof the degree was valid. The team walked us through approvals and fees
+                        step by step.</p>
+                    <div class="tp">
+                        <span class="av" aria-hidden="true"></span>
+                        <div><b>Arjun</b><small>Class of 2027</small></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         FAQ
+         ============================================================ -->
+    <section class="sec alt" id="faq">
+        <div class="shell">
+            <div class="faq-split">
+                <div class="faq-left">
+                    <div class="sh">
+                        <div class="lab">— FAQs</div>
+                        <h2 class="st">Frequently asked questions</h2>
+                        <p class="sd">Read up on the most pertinent queries that a student usually asks.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="fql">
+                    <div class="fq">
+                        <button class="fqb">Can I compare different universities before choosing an online
+                            programme?<i>+</i></button>
+                        <div class="fqa">
+                            <p>Yes, you can explore partner universities, compare their programme offerings and review
+                                relevant course details before deciding which option aligns with your academic and
+                                career goals.</p>
+                        </div>
+                    </div>
+                    <div class="fq">
+                        <button class="fqb">Are online classes conducted live or can I access recorded
+                            lectures?<i>+</i></button>
+                        <div class="fqa">
+                            <p>Learning formats vary across universities and programmes. Depending on your chosen
+                                course,
+                                learning may involve live sessions, recorded lectures or other online learning
+                                resources.</p>
+                        </div>
+                    </div>
+                    <div class="fq">
+                        <button class="fqb">Can I pursue online courses in India while working full
+                            time?<i>+</i></button>
+                        <div class="fqa">
+                            <p>Many online programmes are designed to offer flexibility for learners balancing education
+                                with professional or personal commitments. However, class schedules, assessments and
+                                attendance
+                                requirements may vary by programme.</p>
+                        </div>
+                    </div>
+                    <div class="fq">
+                        <button class="fqb">Will I receive a certificate or degree after completing my
+                            programme?<i>+</i></button>
+                        <div class="fqa">
+                            <p>The qualification awarded depends on the programme and the university offering it. Review
+                                the course details to understand the qualification, awarding institution and applicable
+                                recognition before enrolling.</p>
+                        </div>
+                    </div>
+                    <div class="fq">
+                        <button class="fqb">How can I understand the career opportunities available after completing a
+                            course?<i>+</i></button>
+                        <div class="fqa">
+                            <p>Explore the programme curriculum, skills covered and potential career pathways associated
+                                with your chosen field. You can also review the placement support available through the
+                                university to understand the career assistance offered.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="ftr">
+        <!-- icon sprite -->
+        <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+            <symbol id="i-mail" viewBox="0 0 24 24">
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <path d="m3 7 9 6 9-6" />
+            </symbol>
+            <symbol id="i-phone" viewBox="0 0 24 24">
+                <path
+                    d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.4 19.4 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.2-1.3a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.8 2.1z" />
+            </symbol>
+            <symbol id="i-facebook" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+            </symbol>
+            <symbol id="i-linkedin" viewBox="0 0 24 24">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+            </symbol>
+            <symbol id="i-x" viewBox="0 0 24 24">
+                <path d="M4 4l11.733 16H20L8.267 4z" />
+                <path d="M4 20l6.768-6.768m2.46-2.46L20 4" />
+            </symbol>
+            <symbol id="i-instagram" viewBox="0 0 24 24">
+                <rect x="2" y="2" width="20" height="20" rx="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <path d="M17.5 6.5h.01" />
+            </symbol>
+            <symbol id="i-youtube" viewBox="0 0 24 24">
+                <path
+                    d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
+                <path d="m9.75 15.02 5.75-3.27-5.75-3.27z" />
+            </symbol>
+        </svg>
+
+        <div class="onl" id="onl" role="img" aria-label="Online">
+            <span class="om" style="--i:0"><span class="ol">O</span></span>
+            <span class="om" style="--i:1"><span class="ol">N</span></span>
+            <span class="om" style="--i:2"><span class="ol">L</span></span>
+            <span class="om" style="--i:3"><span class="ol">I</span></span>
+            <span class="om" style="--i:4"><span class="ol">N</span></span>
+            <span class="om" style="--i:5"><span class="ol">E</span></span>
+        </div>
+
+        <div class="shell">
+            <div class="fg">
+                <!-- brand -->
+                <div>
+                    <img class="ftr-logo" src="media/Learntech_White.svg" alt="Learntech">
+                    <p class="ftr-about">Learntech Online helps students explore online programmes and make informed
+                        academic and career decisions.
+                    </p>
+
+                    <div class="ftr-social">
+                        <span class="ftr-social__label">Follow us on</span>
+                        <ul class="ftr-social__list">
+                            <li><a href="https://www.facebook.com/learntechedu" target="_blank"
+                                    rel="noopener noreferrer" aria-label="Facebook"><svg aria-hidden="true">
+                                        <use href="#i-facebook" />
+                                    </svg></a></li>
+                            <li><a href="https://www.linkedin.com/company/learntech-edu-solutions-pvt-ltd/"
+                                    target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg
+                                        aria-hidden="true">
+                                        <use href="#i-linkedin" />
+                                    </svg></a></li>
+                            <li><a href="https://twitter.com/learntechww" target="_blank" rel="noopener noreferrer"
+                                    aria-label="X (Twitter)"><svg aria-hidden="true">
+                                        <use href="#i-x" />
+                                    </svg></a></li>
+                            <li><a href="https://www.instagram.com/learntechedus" target="_blank"
+                                    rel="noopener noreferrer" aria-label="Instagram"><svg aria-hidden="true">
+                                        <use href="#i-instagram" />
+                                    </svg></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCZP40_ivVcdelNOVhmQFr7w" target="_blank"
+                                    rel="noopener noreferrer" aria-label="YouTube"><svg aria-hidden="true">
+                                        <use href="#i-youtube" />
+                                    </svg></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- partners -->
+                <div>
+                    <h5>PARTNERS</h5>
+                    <ul class="ftr-links">
+                        <li><a href="#partners">Amrita Vishwa Vidyapeetham Online</a></li>
+                        <li><a href="#partners">Alliance University Online</a></li>
+                        <li><a href="#partners">CHRIST (Deemed to be University) Online</a></li>
+                        <li><a href="#partners">Chandigarh University Online</a></li>
+                    </ul>
+                </div>
+
+                <!-- programmes -->
+                <div>
+                    <h5>PROGRAMMES</h5>
+                    <ul class="ftr-links">
+                        <li><a href="#browse">Online BBA</a></li>
+                        <li><a href="#browse">Online BCA</a></li>
+                        <li><a href="#browse">Online MBA</a></li>
+                        <li><a href="#browse">Online MCA</a></li>
+                        <li><a href="#browse">Online M.Sc</a></li>
+                        <li><a href="#browse">Online MA</a></li>
+                    </ul>
+                </div>
+
+                <!-- contact -->
+                <div>
+                    <h5>CONTACT US</h5>
+                    <ul class="ftr-links">
+                        <li><a href="mailto:info@learntechww.com"><svg aria-hidden="true">
+                                    <use href="#i-mail" />
+                                </svg>info@learntechww.com</a></li>
+                        <li><a href="tel:+919606949066"><svg aria-hidden="true">
+                                    <use href="#i-phone" />
+                                </svg>+91 96069 49066</a></li>
+                        <li><a href="tel:+918001208696"><svg aria-hidden="true">
+                                    <use href="#i-phone" />
+                                </svg>1800 120 8696 (Toll Free)</a></li>
+                        <li><a href="tel:+918026631169"><svg aria-hidden="true">
+                                    <use href="#i-phone" />
+                                </svg>080-26631169</a></li>
+                        <li><a href="tel:+918022454991"><svg aria-hidden="true">
+                                    <use href="#i-phone" />
+                                </svg>080-22454991</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="fb">
+                <span>© 2026 Learntech Edu Solutions Pvt. Ltd., Bengaluru. All Rights Reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+    <button id="backToTop" aria-label="Back to top" title="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+        </svg>
+    </button>
+
+    <!-- POPUP -->
+    <div class="popup-overlay" id="popupOverlay" aria-hidden="true">
+        <div class="popup-box" role="dialog" aria-modal="true" aria-labelledby="formTitle">
+
+            <button type="button" class="close-popup" id="closePopup" aria-label="Close popup">&times;</button>
+
+            <!-- LEFT BANNER -->
+            <div class="popup-banner" id="popupBanner">
+                <div class="banner-tag">STUDY ONLINE, YOUR WAY
+                </div>
+
+                <div>
+                    <h2>Choose the right online degree.<br>
+                        <span>Learn on your own schedule.</span>
+                    </h2>
+
+                    <p>
+                        Compare online UG and PG programmes from leading universities and get clear, honest guidance
+                        from our counsellors before you apply.
+                    </p>
+
+                    <div class="banner-points">
+                        <span>Course Guidance</span>
+                        <span>Expert Support</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT FORM -->
+            <div class="popup-form-panel">
+                <h3 id="formTitle">Let’s find your programme
+                </h3>
+                <p class="form-intro">
+                    Share a few details and a Learntech Online counsellor will call you to help you shortlist the right
+                    programme.
+                </p>
+
+                <form id="enquiryForm">
+                    <div class="form-group">
+                        <label for="fullName">Full Name <span>*</span></label>
+                        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name"
+                            autocomplete="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number <span>*</span></label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter 10-digit mobile number"
+                            autocomplete="tel" inputmode="numeric" pattern="[6-9][0-9]{9}"
+                            title="Enter a valid 10-digit Indian mobile number" maxlength="10" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address <span>*</span></label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="course">Interested Courses <span>*</span></label>
+                        <select id="course" name="course" required>
+                            <option value="" disabled selected>Select a course</option>
+                            <option value="Online BBA">Online BBA (Bachelor of Business Administration)</option>
+                            <option value="Online BCA">Online BCA (Bachelor of Computer Applications)</option>
+                            <option value="Online B.Com">Online B.Com (Bachelor of Commerce)</option>
+                            <option value="Online BA (Journalism &amp; Mass Communication)">Online BA (Journalism &amp;
+                                Mass Communication)</option>
+                            <option value="Online MBA">Online MBA (Master of Business Administration)</option>
+                            <option value="Online MBA in Human Resources (HR)">Online MBA in Human Resources (HR)
+                            </option>
+                            <option value="Online MBA in Marketing">Online MBA in Marketing</option>
+                            <option value="Online MBA in Finance">Online MBA in Finance</option>
+                            <option value="Online MBA in Operations">Online MBA in Operations</option>
+                            <option value="Online MBA in General Management">Online MBA in General Management</option>
+                            <option value="Online MCA">Online MCA (Master of Computer Applications)</option>
+                            <option value="Online MCA in Artificial Intelligence">Online MCA in Artificial Intelligence
+                            </option>
+                            <option value="Online MCA in Cybersecurity and AI">Online MCA in Cybersecurity and AI
+                            </option>
+                            <option value="Online M.Com">Online M.Com (Master of Commerce)</option>
+                            <option value="Online M.Sc in Data Science">Online M.Sc in Data Science</option>
+                            <option value="Online M.Sc in Artificial Intelligence and Machine Learning">Online M.Sc in
+                                Artificial Intelligence and Machine Learning</option>
+                            <option value="Online M.Sc in Mathematics">Online M.Sc in Mathematics</option>
+                            <option value="Online MA in Applied Economics">Online MA in Applied Economics</option>
+                            <option value="Online MA in Economics">Online MA in Economics</option>
+                            <option value="Online MA in English with Communication">Online MA in English with
+                                Communication</option>
+                            <option value="Online MA in English">Online MA in English</option>
+                            <option value="Online MA in Journalism">Online MA in Journalism</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="state">Your State <span>*</span></label>
+                        <select id="state" name="state" required>
+                            <option value="" disabled selected>Select your state</option>
+                            <option>Andhra Pradesh</option>
+                            <option>Assam</option>
+                            <option>Bihar</option>
+                            <option>Delhi</option>
+                            <option>Goa</option>
+                            <option>Gujarat</option>
+                            <option>Haryana</option>
+                            <option>Karnataka</option>
+                            <option>Kerala</option>
+                            <option>Madhya Pradesh</option>
+                            <option>Maharashtra</option>
+                            <option>Odisha</option>
+                            <option>Punjab</option>
+                            <option>Rajasthan</option>
+                            <option>Tamil Nadu</option>
+                            <option>Telangana</option>
+                            <option>Uttar Pradesh</option>
+                            <option>West Bengal</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        Talk to a Counsellor <span aria-hidden="true">→</span>
+                    </button>
+
+                    <p class="form-note">
+                        By clicking submit, I agree to the terms & conditions and privacy policy and give my consent to
+                        receive updates through SMS/Email.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const overlay = document.getElementById("popupOverlay");
+        const banner = document.getElementById("popupBanner");
+        const form = document.getElementById("enquiryForm");
+        const closeBtn = document.getElementById("closePopup");
+
+        function openPopup() {
+            overlay.classList.add("active");
+            overlay.setAttribute("aria-hidden", "false");
+            document.body.style.overflow = "hidden";
+            document.getElementById("fullName").focus();
+        }
+
+        function closePopup() {
+            overlay.classList.remove("active");
+            overlay.setAttribute("aria-hidden", "true");
+            document.body.style.overflow = "";
+        }
+
+        // Open popup from all enquiry buttons
+        document.querySelectorAll(".open-enquiry-popup").forEach(button => {
+            button.addEventListener("click", e => {
+                e.preventDefault();
+                openPopup();
+            });
+        });
+
+        // Close using the X button
+        closeBtn.addEventListener("click", closePopup);
+
+        // Close when clicking outside the popup
+        overlay.addEventListener("click", e => {
+            if (e.target === overlay) closePopup();
+        });
+
+        // Close using Escape key
+        document.addEventListener("keydown", e => {
+            if (e.key === "Escape" && overlay.classList.contains("active")) {
+                closePopup();
+            }
+        });
+
+        // Demo form submission
+        form.addEventListener("submit", e => {
+            e.preventDefault();
+
+            if (!form.reportValidity()) return;
+
+            alert("Form validated! Connect your backend to submit the enquiry.");
+        });
+    </script>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
