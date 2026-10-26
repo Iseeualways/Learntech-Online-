@@ -414,10 +414,10 @@
         if (!vp || !rail) return;
 
         var LOGO = {
-            Alliance_University: 'media/Alliance.svg',
-            Amrita_University: 'media/Amrita.svg',
-            Christ_University: 'media/Christ.svg',
-            Chandigarh_University: 'media/icons/Chandigarh_02.svg'
+            Alliance_University_Online: 'media/Alliance.svg',
+            Amrita_Vishwa_Vidyapeetham_Online: 'media/Amrita.svg',
+            CHRIST_Online: 'media/Christ.svg',
+            Chandigarh_University_Online: 'media/icons/Chandigarh_02.svg'
         };
         var ICON = {
             biz: '<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18M11 13h2"/>',
@@ -429,31 +429,31 @@
         };
 
         var UG = [
-            { cat: 'ug', tag: 'UG', icon: 'biz', name: 'Online BBA', degree: 'Bachelor of Business Administration', dur: '3 Years', fees: '\u20B91,00,000 - \u20B91,41,000', colleges: ['Alliance_University', 'Amrita_University', 'Christ_University', 'Chandigarh_University'] },
-            { cat: 'ug', tag: 'UG', icon: 'code', name: 'Online BCA', degree: 'Bachelor of Computer Application', dur: '3 Years', fees: '\u20B955,485 - \u20B91,41,000', colleges: ['Amrita_University', 'Christ_University', 'Chandigarh_University'] },
-            { cat: 'ug', tag: 'UG', icon: 'calc', name: 'Online B.Com', degree: 'Bachelor of Commerce', dur: '3 Years', fees: '\u20B950,635 - \u20B91,20,000', colleges: ['Amrita_University', 'Christ_University', 'Alliance_University'] },
-            { cat: 'ug', tag: 'UG', icon: 'pen', name: 'Online BA', degree: 'Journalism & Mass Communication', dur: '3 Years', fees: '\u20B91,02,250 - \u20B91,35,000', colleges: ['Chandigarh_University'] }
+            { cat: 'ug', tag: 'UG', icon: 'biz', name: 'Online BBA', degree: 'Bachelor of Business Administration', dur: '3 Years', fees: '\u20B91,00,000 - \u20B91,41,000', colleges: ['Alliance_University_Online', 'Amrita_Vishwa_Vidyapeetham_Online', 'CHRIST_Online', 'Chandigarh_University_Online'] },
+            { cat: 'ug', tag: 'UG', icon: 'code', name: 'Online BCA', degree: 'Bachelor of Computer Application', dur: '3 Years', fees: '\u20B955,485 - \u20B91,41,000', colleges: ['Amrita_Vishwa_Vidyapeetham_Online', 'CHRIST_Online', 'Chandigarh_University_Online'] },
+            { cat: 'ug', tag: 'UG', icon: 'calc', name: 'Online B.Com', degree: 'Bachelor of Commerce', dur: '3 Years', fees: '\u20B950,635 - \u20B91,20,000', colleges: ['Amrita_Vishwa_Vidyapeetham_Online', 'CHRIST_Online', 'Alliance_University_Online'] },
+            { cat: 'ug', tag: 'UG', icon: 'pen', name: 'Online BA', degree: 'Journalism & Mass Communication', dur: '3 Years', fees: '\u20B91,02,250 - \u20B91,35,000', colleges: ['Chandigarh_University_Online'] }
         ];
 
         var PG = [
-            { tag: 'MBA', icon: 'biz', name: 'Online MBA', degree: 'Master of Business Administration in Human Resources (HR)', fees: '\u20B92,20,000', colleges: ['Amrita_University'] },
-            { tag: 'MBA', icon: 'biz', name: 'Online MBA', degree: 'Master of Business Administration in Marketing', fees: '\u20B92,20,000', colleges: ['Amrita_University'] },
-            { tag: 'MBA', icon: 'biz', name: 'Online MBA', degree: 'Master of Business Administration in Finance', fees: '\u20B92,20,000', colleges: ['Amrita_University'] },
-            { tag: 'MBA', icon: 'biz', name: 'Online MBA', degree: 'Master of Business Administration in Operations', fees: '\u20B92,24,000', colleges: ['Amrita_University'] },
-            { tag: 'MBA', icon: 'biz', name: 'Online MBA', degree: 'Master of Business Administration in General Management', fees: '\u20B91,76,000', colleges: ['Amrita_University'] },
-            { tag: 'MBA', icon: 'biz', name: 'Online MBA', degree: 'Master of Business Administration', fees: '\u20B91,60,000 - \u20B91,80,400', colleges: ['Alliance_University', 'Chandigarh_University'] },
-            { tag: 'MCA', icon: 'code', name: 'Online MCA', degree: 'Master of Computer Application in Artificial Intelligence', fees: '\u20B91,95,000', colleges: ['Amrita_University'] },
-            { tag: 'MCA', icon: 'code', name: 'Online MCA', degree: 'Master of Computer Application in Cybersecurity and AI', fees: '\u20B91,95,000', colleges: ['Amrita_University'] },
-            { tag: 'MCA', icon: 'code', name: 'Online MCA', degree: 'Master of Computer Application', fees: '\u20B91,16,250 - \u20B92,30,000', colleges: ['Christ_University', 'Chandigarh_University'] },
-            { tag: 'M.Com', icon: 'calc', name: 'Online M.Com', degree: 'Master of Commerce', fees: '\u20B950,000 - \u20B990,000', colleges: ['Christ_University', 'Amrita_University'] },
-            { tag: 'M.Sc', icon: 'flask', name: 'Online M.Sc', degree: 'Master of Science in Data Science', fees: '\u20B91,10,000 - \u20B92,50,000', colleges: ['Christ_University', 'Chandigarh_University'] },
-            { tag: 'M.Sc', icon: 'flask', name: 'Online M.Sc', degree: 'Master of Science in Artificial Intelligence and Machine Learning', fees: '\u20B92,75,000', colleges: ['Christ_University'] },
-            { tag: 'M.Sc', icon: 'flask', name: 'Online M.Sc', degree: 'Master of Science in Mathematics', fees: '\u20B975,000', colleges: ['Chandigarh_University'] },
-            { tag: 'MA', icon: 'book', name: 'Online MA', degree: 'Master of Arts in Applied Economics', fees: '\u20B945,000', colleges: ['Christ_University'] },
-            { tag: 'MA', icon: 'book', name: 'Online MA', degree: 'Master of Arts in Economics', fees: '\u20B975,000', colleges: ['Chandigarh_University'] },
-            { tag: 'MA', icon: 'book', name: 'Online MA', degree: 'Master of Arts in English with Communication', fees: '\u20B935,625', colleges: ['Christ_University'] },
-            { tag: 'MA', icon: 'book', name: 'Online MA', degree: 'Master of Arts in English', fees: '\u20B975,000', colleges: ['Chandigarh_University'] },
-            { tag: 'MA', icon: 'book', name: 'Online MA', degree: 'Master of Arts in Journalism', fees: '\u20B975,000', colleges: ['Chandigarh_University'] }
+            { tag: 'MBA', icon: 'biz', name: 'Online MBA', degree: 'Master of Business Administration in Human Resources (HR)', fees: '\u20B92,20,000', colleges: ['Amrita_Vishwa_Vidyapeetham_Online'] },
+            { tag: 'MBA', icon: 'biz', name: 'Online MBA', degree: 'Master of Business Administration in Marketing', fees: '\u20B92,20,000', colleges: ['Amrita_Vishwa_Vidyapeetham_Online'] },
+            { tag: 'MBA', icon: 'biz', name: 'Online MBA', degree: 'Master of Business Administration in Finance', fees: '\u20B92,20,000', colleges: ['Amrita_Vishwa_Vidyapeetham_Online'] },
+            { tag: 'MBA', icon: 'biz', name: 'Online MBA', degree: 'Master of Business Administration in Operations', fees: '\u20B92,24,000', colleges: ['Amrita_Vishwa_Vidyapeetham_Online'] },
+            { tag: 'MBA', icon: 'biz', name: 'Online MBA', degree: 'Master of Business Administration in General Management', fees: '\u20B91,76,000', colleges: ['Amrita_Vishwa_Vidyapeetham_Online'] },
+            { tag: 'MBA', icon: 'biz', name: 'Online MBA', degree: 'Master of Business Administration', fees: '\u20B91,60,000 - \u20B91,80,400', colleges: ['Alliance_University_Online', 'Chandigarh_University_Online'] },
+            { tag: 'MCA', icon: 'code', name: 'Online MCA', degree: 'Master of Computer Application in Artificial Intelligence', fees: '\u20B91,95,000', colleges: ['Amrita_Vishwa_Vidyapeetham_Online'] },
+            { tag: 'MCA', icon: 'code', name: 'Online MCA', degree: 'Master of Computer Application in Cybersecurity and AI', fees: '\u20B91,95,000', colleges: ['Amrita_Vishwa_Vidyapeetham_Online'] },
+            { tag: 'MCA', icon: 'code', name: 'Online MCA', degree: 'Master of Computer Application', fees: '\u20B91,16,250 - \u20B92,30,000', colleges: ['CHRIST_Online', 'Chandigarh_University_Online'] },
+            { tag: 'M.Com', icon: 'calc', name: 'Online M.Com', degree: 'Master of Commerce', fees: '\u20B950,000 - \u20B990,000', colleges: ['CHRIST_Online', 'Amrita_Vishwa_Vidyapeetham_Online'] },
+            { tag: 'M.Sc', icon: 'flask', name: 'Online M.Sc', degree: 'Master of Science in Data Science', fees: '\u20B91,10,000 - \u20B92,50,000', colleges: ['CHRIST_Online', 'Chandigarh_University_Online'] },
+            { tag: 'M.Sc', icon: 'flask', name: 'Online M.Sc', degree: 'Master of Science in Artificial Intelligence and Machine Learning', fees: '\u20B92,75,000', colleges: ['CHRIST_Online'] },
+            { tag: 'M.Sc', icon: 'flask', name: 'Online M.Sc', degree: 'Master of Science in Mathematics', fees: '\u20B975,000', colleges: ['Chandigarh_University_Online'] },
+            { tag: 'MA', icon: 'book', name: 'Online MA', degree: 'Master of Arts in Applied Economics', fees: '\u20B945,000', colleges: ['CHRIST_Online'] },
+            { tag: 'MA', icon: 'book', name: 'Online MA', degree: 'Master of Arts in Economics', fees: '\u20B975,000', colleges: ['Chandigarh_University_Online'] },
+            { tag: 'MA', icon: 'book', name: 'Online MA', degree: 'Master of Arts in English with Communication', fees: '\u20B935,625', colleges: ['CHRIST_Online'] },
+            { tag: 'MA', icon: 'book', name: 'Online MA', degree: 'Master of Arts in English', fees: '\u20B975,000', colleges: ['Chandigarh_University_Online'] },
+            { tag: 'MA', icon: 'book', name: 'Online MA', degree: 'Master of Arts in Journalism', fees: '\u20B975,000', colleges: ['Chandigarh_University_Online'] }
         ].map(function (c) { c.cat = 'pg'; c.dur = '2 Years'; return c; });
 
         var SVG = function (paths, sw) {
